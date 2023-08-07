@@ -7,7 +7,9 @@ Then use this command in your terminal:
 gcc exploit.c -o exploit -static
 ![image](https://github.com/1cYinfinity/htbdownloadroot/assets/55952519/7692b3cd-6460-4ade-8c9b-c817482612e6)
 
-After that upload 'exploit' file in Wesley terminal and run the cmd using this ' ./exploit '
+##### NOTE: Do this all in '/tmp' dir in wesley terminal. #####
+ 
+After that upload 'exploit' file in '/tmp' dir on Wesley terminal and run the cmd using this ' ./exploit '
 After that You got the passwd for psql.
 
 And run this cmd after.                   
