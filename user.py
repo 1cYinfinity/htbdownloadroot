@@ -9,7 +9,7 @@ def writeJson(j):
         f.write(json.dumps(j))
 
 def generateCookieAndSign(startsWith):
-    j = {"user":{"username":{"contains": "<USER>"}, "password":{"startsWith":startsWith}}}
+    j = {"user":{"username":{"contains": "WESLEY"}, "password":{"startsWith":startsWith}}}
     writeJson(j)
     out = subprocess.check_output(["/home/yuh/cookie-monster/bin/cookie-monster.js", "-e", "-f", "cookie.json", "-k", "*************************************************", "-n", "download_session"]).decode().replace("\n"," ")
     matches = re.findall(regex, out, re.MULTILINE)[0]
