@@ -13,4 +13,6 @@ And run this cmd after.
 
 Then the last step is:-                          
 ![image](https://github.com/1cYinfinity/htbdownloadroot/assets/55952519/5c471b6b-b8e1-43a3-b685-c40a2f58c260)
- Done you got tha #root
+
+
+Done you got the #root
