@@ -1,6 +1,8 @@
 # htbdownloadroot
 This is for htb seasonal lab "download"  root exploit.
 
+For user you sholud run user.py script and wait for sometimes it will reveal passwd for ssh connection.
+
 Then use this command in your terminal:
 gcc exploit.c -o exploit -static
 ![image](https://github.com/1cYinfinity/htbdownloadroot/assets/55952519/7692b3cd-6460-4ade-8c9b-c817482612e6)
