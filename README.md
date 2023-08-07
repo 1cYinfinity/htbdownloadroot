@@ -7,11 +7,11 @@ Then use this command in your terminal:
 gcc exploit.c -o exploit -static
 ![image](https://github.com/1cYinfinity/htbdownloadroot/assets/55952519/7692b3cd-6460-4ade-8c9b-c817482612e6)
 
-##### NOTE: Do this all in '/tmp' dir in wesley terminal. #####
+##### NOTE :- Do this all in '/tmp' dir in wesley terminal. #####
  
 After that upload 'exploit' file in '/tmp' dir on Wesley terminal and run below cmd : 
 
-But Before you should run this cmd ' cat /etc/systemd/system/download-site.service ' for psql passwd.
+NOTE :- But Before you should run this cmd ' cat /etc/systemd/system/download-site.service ' for psql passwd.
 
 
 And run this cmd after.                   
